@@ -430,7 +430,7 @@ export class SuperClusterAdapter implements ISuperClusterAdapter {
       clickable: this.pZoomOnClick,
       icon: this.getClusterIcon(scfeature),
       label: this.getClusterLabel(scfeature),
-      title: `${scfeature.properties.point_count_abbreviated} positions in the cluster`,
+      title: `${scfeature.properties.point_count_abbreviated}`,
       visible: true,
     };
     return options;
